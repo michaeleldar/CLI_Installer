@@ -159,10 +159,10 @@ with open("user_configuration.json", "w") as user_config:
 "sys-encoding": "utf-8",
 "timezone": "{time_zone}",
 "version": "2.5.0",
-"packages": ["git", "python3"],
+"packages": ["xorg", "xorg-server", "gnome"],
 "custom-commands": [
-        "pacman -S xorg xorg-server --noconfirm",
-        "pacman -S gnome --noconfirm"
+        "systemctl enable gdm.service",
+        "reboot -h now"
 ]
 {'}'}"""
     )
