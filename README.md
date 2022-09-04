@@ -46,6 +46,9 @@ Then answer the questions. Note, that this isn't the final release and a lot is 
 
 The install process is a bit buggy right now, so testing is apreciated.
 
+NOTE FOR PEOPLE WHO WANT TO RUN THE BUGLESS TCC FORK:
+Use link https://raw.githubusercontent.com/michaeleldar/CLI_Installer/master/script_part_1.py instead!
+
 ## Roadmap
 ```
 0.1.x (released) - Adds gnome desktop enviroment
